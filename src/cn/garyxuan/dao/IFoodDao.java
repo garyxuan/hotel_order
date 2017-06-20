@@ -1,6 +1,3 @@
-/**
- * 
- */
 package cn.garyxuan.dao;
 
 import java.util.List;

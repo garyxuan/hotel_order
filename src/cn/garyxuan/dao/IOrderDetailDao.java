@@ -1,6 +1,3 @@
-/**
- * 
- */
 package cn.garyxuan.dao;
 
 import java.util.List;
@@ -13,6 +10,7 @@ import cn.garyxuan.entity.OrderDetail;
  *
  */
 public interface IOrderDetailDao {
+	
 	void add(OrderDetail od);
 	
 	List<OrderDetail> query();
