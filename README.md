@@ -8,9 +8,9 @@
   - service： service层
   - servlet: servlet接口层
   - until: 工具集合
-    - Condition： 筛选条件实体
-    - JdbcUtil： jdbc数据库工具类
-    - PageBean: 分页数据实体
-    - WebUti: web工具类 封装了重定向和转发功能
+    -- Condition： 筛选条件实体
+    -- JdbcUtil： jdbc数据库工具类
+    -- PageBean: 分页数据实体
+    -- WebUti: web工具类 封装了重定向和转发功能
  
   
