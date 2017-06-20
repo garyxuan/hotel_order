@@ -1,0 +1,14 @@
+<c3p0-config>
+    <default-config>
+        <property name="jdbcUrl">jdbc:mysql://localhost/hotel_order</property>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="user">root</property>
+        <property name="password">123456</property>
+        
+        <property name="acquireIncrement">3</property>        <!-- 无空闲连接一次性创建连接数 -->
+        <property name="initialPoolSize">10</property>        <!-- 初始化连接数目 -->
+        <property name="minPoolSize">3</property>             <!-- 最小连接数 -->
+        <property name="maxPoolSize">10</property>            <!-- 最大连接数 -->
+        <property name="maxIdleTime">100</property>         <!-- 最大空闲时间 -->
+    </default-config>
+</c3p0-config>
